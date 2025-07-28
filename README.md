@@ -33,7 +33,7 @@ python embedding_tool.py --input_dir "파싱 결과 JSON 파일 디렉토리" --
 #### 옵션
 - `--input_dir`: 입력 JSON 파일 디렉토리 (기본값: /NXJ_Parser_Text/output)
 - `--output_dir`: 출력 디렉토리 (기본값: /NXJ_Embed/emb)
-- `--batch_size`: 배치 크기 (기본값: 32)
+- `--batch_size`: 배치 크기 (기본값: 64)
 - `--model_name`: 임베딩 모델명 (기본값: intfloat/multilingual-e5-small)
 
 ### 2. 검색
